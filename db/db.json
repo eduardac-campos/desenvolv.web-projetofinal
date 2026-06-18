@@ -1,0 +1,54 @@
+{
+  "tipos_pontos": [
+    { "id": 1, "descricao": "Massa Tradicional" },
+    { "id": 2, "descricao": "Massa Integral" },
+    { "id": 3, "descricao": "Massa Fina" },
+    { "id": 4, "descricao": "Massa Pan" }
+  ],
+  "opcionais": {
+    "complemento": [
+      { "id": 1, "nome": "Borda de Catupiry" },
+      { "id": 2, "nome": "Borda de Chocolate" },
+      { "id": 3, "nome": "Extra Queijo" },
+      { "id": 4, "nome": "Orégano" }
+    ],
+    "bebidas": [
+      { "id": 1, "nome": "Coca-Cola 2L", "valor": 12 },
+      { "id": 2, "nome": "Guaraná 2L", "valor": 10 },
+      { "id": 3, "nome": "Suco de Uva 1L", "valor": 15 }
+    ]
+  },
+  "menu": {
+    "burgues": [
+      {
+        "id": 1,
+        "nome": "Margherita",
+        "foto": "https://pizzariadobairro.com.br/wp-content/uploads/2021/08/pizza-margherita.jpg",
+        "descricao": "Molho de tomate pelado, mussarela de búfala, manjericão fresco e azeite extra virgem.",
+        "valor": 45
+      },
+      {
+        "id": 2,
+        "nome": "Calabresa",
+        "foto": "https://pizzariadobairro.com.br/wp-content/uploads/2021/08/pizza-calabresa.jpg",
+        "descricao": "Molho de tomate, mussarela, calabresa fatiada, cebola e azeitonas pretas.",
+        "valor": 40
+      },
+      {
+        "id": 3,
+        "nome": "Quatro Queijos",
+        "foto": "https://pizzariadobairro.com.br/wp-content/uploads/2021/08/pizza-quatro-queijos.jpg",
+        "descricao": "Molho de tomate, mussarela, provolone, parmesão e gorgonzola.",
+        "valor": 50
+      }
+    ]
+  },
+  "status_pedido": [
+    { "id": 1, "descricao": "Solicitado" },
+    { "id": 2, "descricao": "Em preparo" },
+    { "id": 3, "descricao": "Finalizado" },
+    { "id": 4, "descricao": "Em entrega" },
+    { "id": 5, "descricao": "Cancelado" }
+  ],
+  "pedidos": []
+}
